@@ -23,7 +23,7 @@ You can find this in the main repository in the file Unit_2_Unsupervised_Learnin
   </li>
   <li><a href="#results">Results</a>
     <ul>
-      <li><a href="#average">Average</a></li>
+      <li><a href="#echo-shape-and-averages">Echo Shape and Averages</a></li>
       <li><a href="#standard-deviation-analysis">Standard Deviation Analysis</a></li>
       <li><a href="#confusion-matrix">Confusion Matrix</a></li>
     </ul>
@@ -81,6 +81,7 @@ Although both methods can be used for this task, GMM is generally preferred beca
 ## Results
 The differences in echo shape can be explained by basic radar physics.
 A radar altimeter sends a microwave pulse towards the Earth's surface. The pulse reflects off either sea ice or open water and returns to the satellite, which records the returned signal as a waveform (echo).
+### Echo Shape and Averages
 ![echoes](all_echos.png)
 ![Sea](sea_ice_clusters_echos.png)
 ![lead](lead_clusters_echos.png)
@@ -92,7 +93,7 @@ We can see these patterns in the plot below.
 ![Mean](average_echo_shape.png)
 
 
-## Standard Deviation Analysis
+### Standard Deviation Analysis
 ![STD](std_dev_echo_shape.png)
 The standard deviation shows how much the waveforms vary around the mean.
 * Sea ice: The standard deviation is relatively low and smooth. There is a moderate peak around the main echo return, but variability remains small beyond this region.
@@ -102,7 +103,7 @@ These findings demonstrate why GMM is well-suited for this task: it explicitly m
 
 Comparing the mean and standard deviation waveforms provides a clearer understanding of the distinguishing features between sea ice and leads, which is crucial for reliable classification.
 
-## Confusion Matrix
+### Confusion Matrix
 ![CM](confusion_matrix.png)
 
 This section evaluates classification performance against the official ESA labels and quantifies agreement using accuracy and error metrics
