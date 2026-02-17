@@ -22,7 +22,7 @@ You can find this in the main repository in the file Unit_2_Unsupervised_Learnin
     <ul>
       <li><a href="#k-means-clustering">K-means Clustering</a></li>
       <li><a href="#gaussian-mixture-models-gmm">Gaussian Mixture Models (GMM)</a></li>
-      <li><a href="#why-use-gmm-for-echo-classification">Why Use GMM for Echo Classification</a></li>
+      <li><a href="#why-use-gmm-for-echo-classification?">Why Use GMM for Echo Classification?</a></li>
     </ul>
   </li>
 
