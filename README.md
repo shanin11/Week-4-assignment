@@ -27,8 +27,7 @@ You can find this in the main repository in the file Unit_2_Unsupervised_Learnin
       <li><a href="#standard-deviation-analysis">Standard Deviation Analysis</a></li>
       <li><a href="#confusion-matrix">Confusion Matrix</a></li>
     </ul>
-  </li>
-</ul>
+ <li><a href="#Acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -114,5 +113,8 @@ Comparing the mean and standard deviation waveforms provides a clearer understan
 ![CM](confusion_matrix.png)
 
 This section evaluates classification performance against the official ESA labels and quantifies agreement using accuracy and error metrics
+
+## Acknowledgments
+This project is part of an assignment for the GEOL0069 module taught in UCL Earth Sciences Department.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
