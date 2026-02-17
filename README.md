@@ -10,26 +10,25 @@ Please refer to the full notebook for a comprehensive overview of the complete w
 You can find this in the main repository in the file Unit_2_Unsupervised_Learning_Methods.ipynb. This notebook was built using Google Colab and builds on Chapter1_Unsupervised_Learning_Methods_Michel.ipynb.
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  
-    <li><a href="#Installation">Installation</a></li>
-    <li><a href="#Objectives">Objectives</a></li>
-    <li><a href="#Overview of Unsupervised Learning Methods">Overview of Unsupervised Learning Methods</a></li>
-     <ul>
-        <li><a href="#K-means Clustering">K-means Clustering</a></li>
-        <li><a href="#GMM">GMM</a></li>
-        <li><a href="#Why Use GMM for Echo Classification?">Why Use GMM for Echo Classification?</a></li>
-      </ul>
-    </li>
-    <li><a href="#Results">Results</a></li>
+#### Table of Contents
+<ul>
+  <li><a href="#installation">Installation</a></li>
+  <li><a href="#objectives">Objectives</a></li>
+  <li><a href="#overview-of-unsupervised-learning-methods">Overview of Unsupervised Learning Methods</a>
     <ul>
-        <li><a href="#Average">Average</a></li>
-        <li><a href="#Standard Deviation">Standard Deviation</a></li>
-        <li><a href="#Confusion Matrix">Confusion Matrix</a></li>
-      </ul>
-    </li>
-   
+      <li><a href="#k-means-clustering">K-means Clustering</a></li>
+      <li><a href="#gaussian-mixture-models-gmm">Gaussian Mixture Models (GMM)</a></li>
+      <li><a href="#why-use-gmm-for-echo-classification">Why Use GMM for Echo Classification</a></li>
+    </ul>
+  </li>
+  <li><a href="#results">Results</a>
+    <ul>
+      <li><a href="#average">Average</a></li>
+      <li><a href="#standard-deviation-analysis">Standard Deviation Analysis</a></li>
+      <li><a href="#confusion-matrix">Confusion Matrix</a></li>
+    </ul>
+  </li>
+</ul>
   </ol>
 </details>
 
