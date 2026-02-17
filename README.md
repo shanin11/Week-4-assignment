@@ -9,40 +9,27 @@ Please refer to the full notebook for a comprehensive overview of the complete w
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#Installation">About The Project</a>
-      <ul>
-        <li><a href="#">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#Installation">Usage</a></li>
-    <li><a href="#Objectives">Roadmap</a></li>
-    <li><a href="#Overview of Unsupervised Learning Methods">Contributing</a></li>
+  
+    <li><a href="#Installation">Installation</a></li>
+    <li><a href="#Objectives">Objectives</a></li>
+    <li><a href="#Overview of Unsupervised Learning Methods">Overview of Unsupervised Learning Methods</a></li>
      <ul>
-        <li><a href="#K-means Clustering">Prerequisites</a></li>
-        <li><a href="#GMM">Installation</a></li>
+        <li><a href="#K-means Clustering">K-means Clustering</a></li>
+        <li><a href="#GMM">GMM</a></li>
+        <li><a href="#Why Use GMM for Echo Classification?">Why Use GMM for Echo Classification?</a></li>
       </ul>
     </li>
-    <li><a href="#Why Use GMM for Echo Classification?">License</a></li>
-    <li><a href="#Results">Contact</a></li>
+    <li><a href="#Results">Results</a></li>
     <ul>
-        <li><a href="#Average">Prerequisites</a></li>
-        <li><a href="#Standard Deviation">Installation</a></li>
-        <li><a href="#Confusion Matrix">Installation</a></li>
+        <li><a href="#Average">Average</a></li>
+        <li><a href="#Standard Deviation">Standard Deviation</a></li>
+        <li><a href="#Confusion Matrix">Confusion Matrix</a></li>
       </ul>
     </li>
    
   </ol>
 </details>
-## Installation
+
 
 ## Objectives
 The main objectives of this notebook are to use GMM to:
