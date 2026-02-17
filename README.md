@@ -6,6 +6,42 @@ This project explores unsupervised learning methods for classification tasks. Sp
 Although the notebook discusses both datasets, this README focuses primarily on the Sentinel-3 altimetry data.
 Please refer to the full notebook for a comprehensive overview of the complete workflow.
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#Installation">About The Project</a>
+      <ul>
+        <li><a href="#">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#Installation">Usage</a></li>
+    <li><a href="#Objectives">Roadmap</a></li>
+    <li><a href="#Overview of Unsupervised Learning Methods">Contributing</a></li>
+     <ul>
+        <li><a href="#K-means Clustering">Prerequisites</a></li>
+        <li><a href="#GMM">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#Why Use GMM for Echo Classification?">License</a></li>
+    <li><a href="#Results">Contact</a></li>
+    <ul>
+        <li><a href="#Average">Prerequisites</a></li>
+        <li><a href="#Standard Deviation">Installation</a></li>
+        <li><a href="#Confusion Matrix">Installation</a></li>
+      </ul>
+    </li>
+   
+  </ol>
+</details>
 ## Installation
 
 ## Objectives
@@ -19,9 +55,10 @@ The main objectives of this notebook are to use GMM to:
 ### K-means Clustering
 K-means clustering divides the data into a predefined number of clusters by assigning each data point to the nearest cluster centre based on similarity.
 Gaussian Mixture Models (GMM)
-### GMM assumes that the data is generated from a mixture of Gaussian distributions.
+### GMM 
+Assumes that the data is generated from a mixture of Gaussian distributions.
 It assigns probabilities to each data point belonging to each cluster — a process known as soft clustering.
-Insert code for setup and plotting here.
+![GMM](gmm_plot.png)
 
 #### Why Use GMM for Echo Classification?
 Although both methods can be used for this task, GMM is generally preferred because:
