@@ -42,8 +42,8 @@ The main objectives of this notebook are to use GMM to:
 ### K-means Clustering
 K-means clustering divides the data into a predefined number of clusters by assigning each data point to the nearest cluster centre based on similarity.
 Gaussian Mixture Models (GMM)
-### GMM 
-Assumes that the data is generated from a mixture of Gaussian distributions.
+### Gaussian Mixture Models (GMM)
+GMM assumes that the data is generated from a mixture of Gaussian distributions.
 It assigns probabilities to each data point belonging to each cluster — a process known as soft clustering.
 
    ```sh
