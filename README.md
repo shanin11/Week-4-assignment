@@ -32,9 +32,9 @@ Although both methods can be used for this task, GMM is generally preferred beca
 ## Results
 The differences in echo shape can be explained by basic radar physics.
 A radar altimeter sends a microwave pulse towards the Earth's surface. The pulse reflects off either sea ice or open water and returns to the satellite, which records the returned signal as a waveform (echo).
-![echoes](all_echoes.png)
-![Sea](sea_ice_clusters_echoes.png)
-![lead](lead_clusers_echoes.png)
+![echoes](all_echos.png)
+![Sea](sea_ice_clusters_echos.png)
+![lead](lead_clusters_echos.png)
 The shape of the echo waveform depends on surface type:
 * Sea Ice: A rough, uneven surface produces a broader, more spread-out echo.
 * Lead: A smooth, flat surface produces a stronger, sharper echo.
