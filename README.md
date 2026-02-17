@@ -122,7 +122,7 @@ Comparing the mean and standard deviation waveforms provides a clearer understan
 
 This section evaluates classification performance against the official ESA labels and quantifies agreement using accuracy and error metrics
 
-## Acknowledgments
+## Acknowledgements
 This project is part of an assignment for the GEOL0069 module taught in UCL Earth Sciences Department.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
