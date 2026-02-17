@@ -4,7 +4,7 @@ This project explores unsupervised learning methods for classification tasks. Sp
 * Sentinel-2 optical data
 * Sentinel-3 altimetry data
 
-Although the notebook discusses both datasets, this README focuses primarily on the Sentinel-3 altimetry data.
+Although the notebook in this repository discusses both datasets, this README focuses primarily on the Sentinel-3 altimetry data.
 
 Please refer to the full notebook for a comprehensive overview of the complete workflow. 
 You can find this in the main repository in the file Unit_2_Unsupervised_Learning_Methods.ipynb. This notebook was built using Google Colab and builds on Chapter1_Unsupervised_Learning_Methods_Michel.ipynb.
@@ -40,11 +40,11 @@ You need to install the following packages for this project.
   ```
 
 ## Objectives
-The main objectives of this notebook are to use GMM to:
+The main objectives of this project is to use unsupervised learning methods to:
 * Classify radar echoes as either sea ice or lead
 * Produce an average echo waveform for each class
 * Calculate the standard deviation for both classes
-* Evaluate classification performance against the official ESA classification using a confusion matrix
+* Evaluate classification performance against the official European Space Agency (ESA) classification using a confusion matrix
 
 ## Overview of Unsupervised Learning Methods
 ### K-means Clustering
@@ -53,7 +53,7 @@ K-means clustering divides the data into a predefined number of clusters by assi
 GMM assumes that the data is generated from a mixture of Gaussian distributions.
 It assigns probabilities to each data point belonging to each cluster, a process known as soft clustering. 
 
-The code and output for this are shown below.
+The code and output for implementing GMM is shown below.
 
    ```sh
 from sklearn.mixture import GaussianMixture
@@ -85,9 +85,10 @@ Although both methods can be used for this task, GMM is generally preferred beca
 * Echo shapes for sea ice and leads can overlap
 
 ## Results
-The differences in echo shape can be explained by basic radar physics.
-A radar altimeter sends a microwave pulse towards the Earth's surface. The pulse reflects off either sea ice or open water and returns to the satellite, which records the returned signal as a waveform (echo).
+The differences in echo shape between sea ice and lead can be explained by basic radar physics.
+A radar altimeter sends a microwave pulse towards the Earth's surface. The pulse reflects off either sea ice or open water (lead) and returns to the satellite, which records the returned signal as a waveform (echo).
 ### Echo Shape and Averages
+The plots of all the echoes, sea ice cluser echoes and lead echoes are shown below.
 ![echoes](all_echos.png)
 ![Sea](sea_ice_clusters_echos.png)
 ![lead](lead_clusters_echos.png)
@@ -95,7 +96,7 @@ The shape of the echo waveform depends on surface type:
 * Sea Ice: A rough, uneven surface produces a broader, more spread-out echo.
 * Lead: A smooth, flat surface produces a stronger, sharper echo.
 
-We can see these patterns in the plot below.
+We can see these patterns in the echo plots above and the average echo plot below.
 ![Mean](average_echo_shape.png)
 
 
@@ -103,9 +104,9 @@ We can see these patterns in the plot below.
 ![STD](std_dev_echo_shape.png)
 The standard deviation shows how much the waveforms vary around the mean.
 * Sea ice: The standard deviation is relatively low and smooth. There is a moderate peak around the main echo return, but variability remains small beyond this region.
-* Lead: The standard deviation shows a sharp and high peak around the main return. Variability is significantly larger at the peak, reflecting fluctuations in surface smoothness and specular reflection strength.
+* Lead: The standard deviation shows a sharp and high peak around the main return. Variability is significantly larger at the peak, reflecting fluctuations in surface smoothness.
 
-These findings demonstrate why GMM is well-suited for this task: it explicitly models variance, whereas K-means may struggle to capture differences in variability between clusters.
+These findings also demonstrates why GMM is well-suited for this task: it explicitly models variance, whereas K-means may struggle to capture differences in variability between clusters.
 
 Comparing the mean and standard deviation waveforms provides a clearer understanding of the distinguishing features between sea ice and leads, which is crucial for reliable classification.
 
